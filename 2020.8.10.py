@@ -126,6 +126,7 @@ print('输入中第五列错误的分值：', error_first_col_credit)
 print('输入中第五行错误的分值：', error_first_row_credit)
 print('总误差为：', error_all)
 
+# 测试集
 test_x = np.zeros([1, 5, 5], 'float32')
 test_x[0, 1, 1] = 1
 print(test_x)
