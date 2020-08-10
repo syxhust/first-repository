@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+# 定义类
 class Model(tf.keras.Model):
     def __init__(self):
         super().__init__()
